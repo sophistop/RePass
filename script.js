@@ -6,5 +6,5 @@ comprador.addEventListener("click", executarAcao);
 
 function executarAcao() {
    
-    window.location.href = "partecomprador.html";
+    window.location.href = "buyer.html";
 }

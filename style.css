@@ -1,0 +1,21 @@
+body{
+    font-family:serif;
+    background:#ffffff;
+    text-align:center;
+    margin-top:100px;
+    font-optical-sizing: auto;
+  font-size: 1.4rem;
+}
+h1{
+    color:rgb(5, 54, 170);
+}
+
+button{
+    padding:25px 25px;
+    border:none;
+    border-radius:10px;
+    background:rgb(5, 54, 170);
+    color:white;
+    cursor:pointer;
+    font-size: 1.2rem;
+}

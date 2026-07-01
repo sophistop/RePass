@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Caesar+Dressing&display=swap" rel="stylesheet">
-
+    
 <head>
     <meta charset="UTF-8">
     <title>Ingressos Disponíveis</title>
@@ -16,22 +8,24 @@
 
 <body>
     <header>
-        <input id="repass" type="image" src="repass.png" alt="Logo RePass" width="100" height="100">
-        <h1 id="titulo">RePass</h1>
+        <input id="repass" type="image" src="repass.png" alt="Logo RePass" width="50" height="50" href="index.html">
+        <h1 id="titulo"><a href="index.html">RePass</a></h1>
         <p id="descTitulo">Perdeu? Achou. Sobrou? Vendeu.</p>
     </header>
     <main>
-        <h1>Ingressos Disponíveis</h1>
-        <p>Confira os ingressos disponíveis para os eventos:</p>
-        <section id="eventos">
+        <h1 class="ingressos">Ingressos Disponíveis</h1>
+        <p class="confira">Confira os ingressos disponíveis para os eventos:</p>
+        <section class="eventos">
             <div class="evento">
-                <h2>Evento 1</h2>
-                <p>Descrição do Evento 1</p>
+                <h2>IMPROVÁVEL BARBIXAS</h2>
+                <img src="improvavel.jpg" alt="Imagem do evento Improvável Barbixas" width="100%" height="200">
+                <p class="desc">São Paulo - SP<br>Data 22/08/2026<br><p class="preco">R$75,00</p></p>
                 <button>Comprar Ingresso</button>
             </div>
             <div class="evento">
-                <h2>Evento 2</h2>
-                <p>Descrição do Evento 2</p>
+                <h2>NOITE DA COMEDIA</h2>
+                <img src="noitecomedia.jpg" alt="Imagem do evento Noite da Comédia" width="100%" height="200">
+                <p class="desc">São Paulo - SP<br>Data 25/07/2026<br><p class="preco">R$60,00</p></p>
                 <button>Comprar Ingresso</button>
             </div>
     </main>

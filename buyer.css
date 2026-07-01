@@ -1,22 +1,120 @@
-body{
-    font-family: "Varela Round", sans-serif;
-    background:#ffffff;
-    font-optical-sizing: auto;
-    font-size: 1.4rem;
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
 
-#titulo{
-    font-family: "Caesar Dressing", system-ui;
+body {
+    font-family: "Cabin", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    color:rgb(5, 54, 170);
-}
-
-#descTitulo{
-    text-align: center;
+    background-color: aliceblue;
 }
 
 header{
-    display:flex;
-    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #9cc4e4;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#titulo{
+    font-family: "Caesar Dressing", cursive;
+    font-size: 2rem;
+    color:#1b325f;
+}
+
+#repass{
+    border-radius: 100%;
+    padding: 0.5rem;
+}
+
+#descTitulo {
+    font-size: 0.875rem;
+    color: #215a6d;
+    margin-left: 0.9rem;
+    margin-top: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ingressos{
+    font-size: 2rem;
+    color:#1b325f;
+}
+
+.confira{
+    font-size: 1rem;
+    color: #215a6d;
+}
+
+.eventos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    margin: 1rem;
+    margin-top:2rem;
+}
+
+.evento{
+    background-color: #9cc4e4;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 300px;
+}
+
+.evento h2{
+    font-size: 1.5rem;
+    color: #1b325f;
+    font-weight: bold;
+}
+
+.evento .desc{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2d2d29;
+    margin-top: 1rem;
+}
+
+.evento .preco{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1b325f;
+    margin-top: 0.5rem;
+}
+
+.evento button{
+    background-color: #1b325f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+footer{
+    background-color: #9cc4e4;
+    text-align: center;
+    padding: 1rem;
+    color:#1b325f;
+    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

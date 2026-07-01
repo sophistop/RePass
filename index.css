@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
 body{
     font-family: sans-serif;
     background:#ffffff;
@@ -5,6 +7,7 @@ body{
     margin-top:100px;
     font-optical-sizing: auto;
   font-size: 1.4rem;
+   background-color: aliceblue;
 }
 h1{
     font-family: "Caesar Dressing", system-ui;
@@ -17,16 +20,26 @@ button{
     padding:25px 25px;
     border:none;
     border-radius:10px;
-    background:rgb(5, 54, 170);
+    background:#0536aa;
     color:white;
     cursor:pointer;
     font-size: 1.5rem;
-    font-family: "Caesar Dressing", system-ui;
+    font-family: "Casin", system-ui;
 }
-nav{  font-family: "Caesar Dressing", system-ui;
+nav{  font-family: "Casin", system-ui;
       font-size: 1.5rem;
+       color:#1b325f;
+       font-weight: bold;
 
 }
-div{ font-family: "Caesar Dressing", system-ui;
+div{ font-family: "Casin", system-ui;
           font-size: 1.5rem;
+            font-weight: 400;
+}
+footer{
+    background-color: #9cc4e4;
+    text-align: center;
+    padding: 1rem;
+   color:#1b325f;
+    font-weight:700;
 }

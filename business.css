@@ -52,17 +52,17 @@ main{
     padding: 1rem;
 }
 
-.ingressos{
-    font-size: 2rem;
+.Pacotes{
+     font-size: 2rem;
     color:rgb(245, 46, 46);
 }
 
-.confira{
-    font-size: 1rem;
+.feche{
+     font-size: 1rem;
     color: rgb(236, 54, 54);
 }
 
-.eventos{
+.pacotes{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -71,7 +71,7 @@ main{
     margin-top:2rem;
 }
 
-.evento{
+.pacote{
     background-color: rgba(216, 67, 67, 0.349);
     padding: 1rem;
     border-radius: 0.5rem;
@@ -79,27 +79,27 @@ main{
     width: 300px;
 }
 
-.evento h2{
+.pacote h2{
     font-size: 1.5rem;
     color: rgb(199, 12, 12);
     font-weight: bold;
 }
 
-.evento .desc{
+.pacote .desc{
     font-size: 1rem;
     font-weight: 500;
     color: rgb(199, 12, 12);
     margin-top: 1rem;
 }
 
-.evento .preco{
+.pacote .preco{
     font-size: 1.25rem;
     font-weight: bold;
     color: rgb(199, 12, 12);
     margin-top: 0.5rem;
 }
 
-.evento button{
+.pacote button{
     background-color: rgb(199, 12, 12);
     color: white;
     border: none;

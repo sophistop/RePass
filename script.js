@@ -1,10 +1,15 @@
 const empresa = document.getElementById("empresa");
 const comprador = document.getElementById("comprador");
 
-empresa.addEventListener("click", executarAcao);
-comprador.addEventListener("click", executarAcao);
+empresa.addEventListener("click", IrParaEmpresa);
+comprador.addEventListener("click", IrParaComprador);
 
-function executarAcao() {
+function IrParaComprador() {
    
     window.location.href = "buyer.html";
+}
+
+function IrParaEmpresa() {
+    
+    window.location.href = "business.html";
 }

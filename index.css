@@ -1,45 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lovelo');
+
 
 body{
     font-family: sans-serif;
-    background:#ffffff;
+    background:#fc3535;
     text-align:center;
     margin-top:100px;
     font-optical-sizing: auto;
   font-size: 1.4rem;
-   background-color: aliceblue;
+   background-color: rgb(254, 254, 254);
 }
 h1{
-    font-family: "Caesar Dressing", system-ui;
+    font-family: "lovelo", system-ui;
      font-size: 3.0rem;
     font-style: normal;
-    color:rgb(5, 54, 170);
+    color:rgb(0, 0, 0);
 }
 
 button{
     padding:25px 25px;
     border:none;
     border-radius:10px;
-    background:#0536aa;
-    color:white;
+    background:rgba(245, 46, 46, 0.26);
+    color:rgb(245, 46, 46);
     cursor:pointer;
     font-size: 1.5rem;
     font-family: "Casin", system-ui;
 }
+.paragrafo-espaço {
+  margin-bottom: 50px; 
+}
+
+.paragrafo-espaço2{
+    margin-bottom: 120px;
+}
+
 nav{  font-family: "Casin", system-ui;
       font-size: 1.5rem;
-       color:#1b325f;
+       color:rgb(0, 0, 0);
        font-weight: bold;
 
 }
 div{ font-family: "Casin", system-ui;
-          font-size: 1.5rem;
-            font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 400;
+
 }
+
 footer{
-    background-color: #9cc4e4;
+  background-color: rgb(244, 173, 173);
     text-align: center;
     padding: 1rem;
-   color:#1b325f;
-    font-weight:700;
+   color:rgb(205, 20, 20);
+    font-weight: 700;
+
 }

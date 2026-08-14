@@ -2,14 +2,24 @@
 @import url('https://fonts.cdnfonts.com/css/lovelo');
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
 body{
-    font-family: sans-serif;
+    font-family: "Cabin", sans-serif;
     background:#fc3535;
     text-align:center;
     margin-top:100px;
     font-optical-sizing: auto;
   font-size: 1.4rem;
-   background-color: rgb(254, 254, 254);
+   background-image: url('fundorepass.jpg');
+   align-items: center;
+   justify-content: center;
+
 }
 h1{
     font-family: "lovelo", system-ui;
@@ -23,19 +33,38 @@ button{
     border:none;
     border-radius:10px;
     background:rgba(245, 46, 46, 0.26);
-    color:rgb(245, 46, 46);
-    cursor:pointer;
+    color:rgb(0, 0, 0);
     font-size: 1.5rem;
     font-family: "Casin", system-ui;
+    border: 3px solid rgb(0, 0, 0);
 }
 .paragrafo-espaço {
-  margin-bottom: 50px; 
+  margin-bottom: 25px; 
 }
 
 .paragrafo-espaço2{
     margin-bottom: 120px;
 }
 
+.quadrado {
+  width:400px;
+  height: 500px;
+  background-color: #ffffff;
+    display: grid;
+  place-items: center;
+  margin-inline: 560px ;
+  border-radius: 20px ;
+}
+.quadrado2 {
+     width:1480px;
+  height: 400px;
+  background-color: #ffffff;
+    display: grid;
+  place-items: center;
+  margin-inline: 20px ;
+  border-radius: 20px ;
+}
+  
 nav{  font-family: "Casin", system-ui;
       font-size: 1.5rem;
        color:rgb(0, 0, 0);
@@ -54,5 +83,7 @@ footer{
     padding: 1rem;
    color:rgb(205, 20, 20);
     font-weight: 700;
-
+    font-size: 1rem;
+    bottom: 0;
+    width: 100%;
 }

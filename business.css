@@ -11,6 +11,7 @@ body {
     font-family: "Cabin", sans-serif;
     font-weight: 400;
     background-color: rgb(255, 255, 255);
+
 }
 
 header{
@@ -54,12 +55,12 @@ main{
 
 .Pacotes{
      font-size: 2rem;
-    color:rgb(245, 46, 46);
+    color:rgb(0, 0, 0);
 }
 
 .feche{
      font-size: 1rem;
-    color: rgb(236, 54, 54);
+    color: rgb(0, 0, 0);
 }
 
 .pacotes{
@@ -81,21 +82,21 @@ main{
 
 .pacote h2{
     font-size: 1.5rem;
-    color: rgb(199, 12, 12);
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
 .pacote .desc{
     font-size: 1rem;
     font-weight: 500;
-    color: rgb(199, 12, 12);
+    color: rgb(0, 0, 0);
     margin-top: 1rem;
 }
 
 .pacote .preco{
     font-size: 1.25rem;
     font-weight: bold;
-    color: rgb(199, 12, 12);
+    color: rgb(0, 0, 0);
     margin-top: 0.5rem;
 }
 

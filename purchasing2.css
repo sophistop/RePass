@@ -45,68 +45,85 @@ a{
     margin-top: 1rem;
 }
 
-main{
+.cadeiras1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.selecione {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-}
-
-.ingressos{
     font-size: 2rem;
     color:rgb(0, 0, 0);
 }
 
-.confira{
-    font-size: 1rem;
-    color: rgb(0, 0, 0);
+#escolha{
+ font-family: "Casin", system-ui;
+      font-size: 1.25rem;
+       color:rgb(0, 0, 0);
+       font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    margin-left:35rem;
 }
 
-.eventos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5rem;
-    margin: 1rem;
-    margin-top:2rem;
-}
-
-.evento{
-    background-color: rgba(216, 67, 67, 0.349);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    text-align: center;
-    width: 300px;
-}
-
-.evento h2{
-    font-size: 1.5rem;
-    color: rgb(0, 0, 0);
+.opcoes{
+    font-family: "Casin", system-ui;
+      font-size: 1.25rem;
+       color:rgb(0, 0, 0);
+    flex-direction: column;
     font-weight: bold;
-}
-
-.evento .desc{
-    font-size: 1rem;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-    margin-top: 1rem;
-}
-
-.evento .preco{
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+    align-items: center;
+    margin-left:1rem;
     margin-top: 0.5rem;
 }
 
-.evento button{
+.paragrafo-espaço1 {
+  margin-bottom: 2.5rem; 
+}
+
+.paragrafo-espaço3 {
+  margin-bottom: 2rem; 
+}
+.paragrafo-espaço2{
+    margin-bottom: 1.5rem;
+}
+
+#comprafinal{
     background-color: rgb(199, 12, 12);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-left: 42rem;
+    font-size: 1.25rem;
+}
+
+.descricaoevento {
+       background-color: rgba(216, 67, 67, 0.349);
+         display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color:rgb(0, 0, 0);
+}
+
+.descrevento {
+       background-color: rgba(216, 67, 67, 0.349);
+         display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color:rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    text-align: center;
 }
 
 footer{
@@ -115,7 +132,8 @@ footer{
     padding: 1rem;
    color:rgb(205, 20, 20);
     font-weight: 700;
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
+    margin-top: 1.5rem;
 }

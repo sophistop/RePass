@@ -13,3 +13,5 @@ function IrParaCompra2() {
    
     window.location.href = "purchasing2.html";
 }
+
+   
